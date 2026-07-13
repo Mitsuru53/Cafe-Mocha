@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CONTACT | Cafe Mocha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./contact.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">Cafe Mocha</div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="concept.html">CONCEPT</a></li>
+          <li><a href="menu.html">MENU</a></li>
+          <li><a href="access.html">ACCESS</a></li>
+          <li><a href="contact.html" class="active">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1 class="page-title">CONTACT</h1>
+        <p class="page-subtitle">お気軽にお問い合わせください</p>
+      </div>
+    </section>
+    <section class="contact-section">
+      <div class="container">
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" placeholder="例:山田 花子">
+          </div>
+          <div class="form-group">
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com">
+          </div>
+          <div class="form-group">
+            <label for="message">お問い合わせ内容</label>
+            <textarea id="message" name="message" rows="6" placeholder="ご質問内容をご入力ください"></textarea>
+          </div>
+          <button type="submit" class="btn">送信する</button>
+          <p class="form-note">※ この教材では送信機能はありません。フォームの見た目を学ぶためのサンプルです。</p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container"><p>&copy; 2026 Cafe Mocha</p></div></footer>
+</body>
+</html>

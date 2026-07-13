@@ -1,0 +1,24 @@
+.page-section { 
+  padding: 80px 0; 
+}
+
+.page-text { 
+  max-width: 760px; 
+  margin: 0 auto; 
+}
+
+.page-text p { 
+  margin-bottom: 20px; 
+}
+
+.back-link { 
+  display: inline-block; 
+  margin-top: 10px; 
+  color: #6B4423; 
+  border-bottom: 1px solid #6B4423; 
+}
+
+.back-link:hover { 
+  color: #A67B5B; 
+  border-color: #A67B5B; 
+}
